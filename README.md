@@ -10,11 +10,15 @@ ES6 study
 
 	例： 
 ```javascript
-		var tmp = 11;
-		if(true){
-			tmp = 22;
-			let tmp;
-		}
+	var tmp = 11;
+
+	if(true){
+
+		tmp = 22;
+
+		let tmp;
+
+	}
 ```
 
 	此时会报错，该块状区域被锁定，tmp未定义；
@@ -27,9 +31,13 @@ ES6 study
 	例：
 ```javascript
 		var name = 'lisi';
+
 		const name = 'xioa';//此时也会报错
+
 		const obj = {};
+
 		obj.name = 'name';
+		
 		obj.pasword = '123456';
 ````
 		此时不会报错，可以给其申明的对象赋值，
