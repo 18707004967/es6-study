@@ -9,13 +9,13 @@ ES6 study
 	let的存在会使其所申明的块状区域出现暂时性锁区现象
 
 	例： 
-		```javascript
-		var tmp = 11;
-		if(true){
-			tmp = 22;
-			let tmp;
-		}
-		```
+```javascript
+var tmp = 11;
+if(true){
+	tmp = 22;
+	let tmp;
+}
+```
 
 	此时会报错，该块状区域被锁定，tmp未定义；
 
