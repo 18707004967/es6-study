@@ -39,7 +39,7 @@ ES6 study
 		obj.name = 'name';
 
 		obj.pasword = '123456';
-		
+
 		//此时不会报错，可以给其申明的对象赋值，
 ````
 
@@ -47,7 +47,9 @@ ES6 study
 
 3.
 	解构：
-
-		左边的变量会按顺序赋予右边的值  如： let [a,b,c] = [1,2,3]; 结果为 a=1,b=2,c=3;
-
+		左边的变量会按顺序赋予右边的值  如： 
+```javascript
+		let [a,b,c] = [1,2,3];
+		//结果为 a=1,b=2,c=3;
+````
 		也可使用 let {round,floor,ceil} = Math; 简化函数
